@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REDES SOCIALES</title>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background: #0a122a;
+        }
+
+        .wrapper {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 550px;
+        }
+
+        .wrapper ul {
+            list-style: none;
+        }
+
+        .wrapper ul li {
+            width: 75px;
+            height: 75px;
+            line-height: 75px;
+            margin: 0 10px;
+            text-align: center;
+            cursor: pointer;
+            border-radius: 50%;
+            border: 5px solid #d8e2dc;
+            float: left;
+            transition: all 0.5s ease;
+        }
+
+        .wrapper ul li .fa {
+            color: #d8e2dc;
+            margin-top: 20px;
+            transition: all 0.5s ease;
+        }
+
+        .wrapper ul li:hover.facebook {
+            border: 5px solid #3b5998;
+            box-shadow: 0 0 15px #3b5998;
+            transition: all 0.5s;
+        }
+
+        .wrapper ul li:hover .fa-facebook {
+            color: #3b5998;
+            text-shadow: 0 0 15px #3b5998;
+            transition: all 0.5s;
+        }
+
+        .wrapper ul li:hover.twitter {
+            border: 5px solid #00aced;
+            box-shadow: 0 0 15px #00aced;
+            transition: all 0.5s ease;
+        }
+
+        .wrapper ul li:hover .fa-twitter {
+            color: #00aced;
+            text-shadow: 0 0 15px #00aced;
+            transition: all 0.5s ease;
+        }
+
+        .wrapper ul li:hover.instagram {
+            border: 5px solid #bc2a8d;
+            box-shadow: 0 0 15px #bc2a8d;
+            transition: all 0.5s ease;
+        }
+
+        .wrapper ul li:hover .fa-instagram {
+            color: #bc2a8d;
+            text-shadow: 0 0 15px #bc2a8d;
+            transition: all 0.5s ease;
+        }
+
+        .wrapper ul li:hover.google {
+            border: 5px solid #dd4b39;
+            box-shadow: 0 0 15px #dd4b39;
+            transition: all 0.5s ease;
+        }
+
+        .wrapper ul li:hover .fa-google {
+            color: #dd4b39;
+            text-shadow: 0 0 15px #dd4b39;
+            transition: all 0.5s ease;
+        }
+
+        .wrapper ul li:hover.wh {
+            border: 5px solid #dd4b39;
+            box-shadow: 0 0 15px #dd4b39;
+            transition: all 0.5s ease;
+        }
+
+        .wrapper ul li:hover .fa-google {
+            color: #dd4b39;
+            text-shadow: 0 0 15px #dd4b39;
+            transition: all 0.5s ease;
+        }
+
+        .wrapper ul li:hover.whatsapp {
+            border: 5px solid #4dc247;
+            box-shadow: 0 0 15px #4dc247;
+            transition: all 0.5s ease;
+        }
+
+        .wrapper ul li:hover .fa-whatsapp {
+            color: #4dc247;
+            text-shadow: 0 0 15px #4dc247;
+            transition: all 0.5s ease;
+        }
+
+        /* RESPONSIVE */
+        @media screen and (max-width: 640px) {
+            .wrapper {
+                width: 350px;
+            }
+
+            .wrapper ul li {
+                margin-top: 10px;
+            }
+
+            .wrapper ul li.google {
+                margin-left: 60px;
+            }            
+        }
+
+        /* otro responsive */
+        @media screen and (max-width: 340px) {
+            .wrapper {
+                width: 150px;
+            }
+
+            .wrapper ul li {
+                margin: 15px;
+            }
+
+            .wrapper ul li.google {
+                margin-left: 15px;
+            }
+        }
+
+
+
+
+    </style>
+</head>
+<body>
+    
+    <div class="wrapper">
+        <ul>
+            <li class="facebook"><a href="https://www.facebook.com/profile.php?id=61559255396588&mibextid=ZbWKwL" target="_blank"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a></li>
+
+            <li class="twitter"><a href="https://x.com/Virtus395?t=KI8uHUHFW0RxSzhq2AlxuA&s=09" target="_blank"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a></li>
+
+            <li class="instagram"><a href="https://www.instagram.com/virtu_stechnology?igsh=MTF0Ymhram45NmczYQ==" target="_blank"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a></li>
+
+            <li class="google"><a href="mailto:virtustech777@gmail.com" target="_blank"><i class="fa fa-google fa-2x" aria-hidden="true"></i></a></li>
+
+            <li class="whatsapp"><a href="https://wa.me/qr/PKHK36P2TETXN1" target="_blank"><i class="fa fa-whatsapp fa-2x" aria-hidden="true"></i></a></li>
+        </ul>
+    </div>
+
+</body>
+</html>
